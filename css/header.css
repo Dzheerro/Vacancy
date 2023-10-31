@@ -1,0 +1,58 @@
+.header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.nav-bar{
+  margin-right: 50px;
+}
+
+.logo {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 32px;
+  color: black;
+}
+
+.logo_image {
+  width: 60px;
+  margin-left: 30px;
+}
+
+.nav-bar__button{
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+.nav-bar__button:hover {
+  transform: 2s;
+  opacity: .75;
+}
+
+
+.nav-bar a {
+  padding-left: 25px;
+}
